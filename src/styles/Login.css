@@ -1,0 +1,114 @@
+/* Estilo inspirado no login da Microsoft adaptado para Medic */
+.medic-login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.medic-login-box {
+  width: 100%;
+  max-width: 440px;
+  padding: 40px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  text-align: center;
+  background-color: #fff;
+}
+
+/* Estilo para a imagem do logo */
+.medic-logo-image {
+  width: 140px; /* Ajuste conforme necessário */
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.login-title {
+  font-size: 24px;
+  font-weight: 400;
+  color: #333;
+  margin-bottom: 28px;
+}
+
+.medic-login-form {
+  width: 100%;
+  text-align: left;
+  
+}
+
+.input-group {
+  margin-bottom: 20px;
+}
+
+.input-group label {
+  display: block;
+  font-size: 14px;
+  color: #616161;
+  margin-bottom: 6px;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  background-color: #fdf8f8;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #333;
+}
+
+.input-group input::placeholder {
+ color: white;
+ opacity: 1;
+}
+
+.input-group input:focus {
+  outline: none;
+  border-color: #0630e9;
+  box-shadow: 0 0 0 2px rgba(42, 127, 98, 0.3);
+}
+
+.next-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4e8deb;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.next-button:hover {
+  background-color: #061faa;
+}
+
+.login-options {
+  margin-top: 30px;
+  font-size: 14px;
+  color: #616161;
+}
+
+.login-options a {
+  color: #2a7f62;
+  text-decoration: none;
+}
+
+.login-options a:hover {
+  text-decoration: underline;
+}
+
+.login-options p {
+  margin: 10px 0;
+}
+
+.error-message {
+  color: #d83b01;
+  font-size: 14px;
+  margin-top: 20px;
+}
